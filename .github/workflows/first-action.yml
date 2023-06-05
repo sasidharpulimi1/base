@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name:print-greeting
-      run: echo "hello"
+       run: echo "hello"
       -name:print-greeting1
-      run: echo "hello1"
+       run: echo "hello1"
