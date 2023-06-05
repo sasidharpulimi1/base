@@ -9,4 +9,6 @@ jobs:
       - name: Printgreeting
         run: echo "hello"
       - name: print-greeting1
-        run: echo "hello1"
+        run: |
+          echo "First output"
+          echo "Second output"
