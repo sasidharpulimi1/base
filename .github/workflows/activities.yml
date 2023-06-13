@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   job_name:
-    runs-on: runner_name
+    runs-on: ubuntu-latest
     steps:
       - name: event action
       - run: "PR opened"
