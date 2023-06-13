@@ -8,4 +8,5 @@ jobs:
   job_name:
     runs-on: runner_name
     steps:
-      -
+      - name: event action
+      - run: "PR opened"
