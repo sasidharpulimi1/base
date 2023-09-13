@@ -1,6 +1,9 @@
 name: PR Synchronize Workflow
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     types:
       - synchronize
