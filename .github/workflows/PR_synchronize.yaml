@@ -11,3 +11,4 @@ jobs:
 
     steps:
       - name: Check out code
+      - run: echo "asd"
